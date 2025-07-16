@@ -26,3 +26,6 @@ A beautiful, lightweight web page that shows a full-screen animated gradient bac
 
 ---
 
+## 📸 Muhammad Imran (@Codebyimran)
+
+
