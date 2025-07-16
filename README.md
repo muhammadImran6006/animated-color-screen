@@ -2,8 +2,8 @@
 
 A beautiful, lightweight web page that shows a full-screen animated gradient background, floating shapes, and particle effects. Users can switch between six preset color themes or pick any custom color they like.
 
-[🚀 Live Demo](https://your-github-username.github.io/animated-color-screen)  
-[📦 Download ZIP](https://github.com/your-github-username/animated-color-screen/archive/refs/heads/main.zip)
+[🚀 Live Demo](https://muhammadimran6006.github.io/animated-color-screen/)  
+
 
 ---
 
@@ -21,13 +21,8 @@ A beautiful, lightweight web page that shows a full-screen animated gradient bac
 
 ## 📸 Preview
 
-![Preview GIF](https://user-images.githubusercontent.com/YOUR_ID/FILE.gif)
+<img width="1280" height="897" alt="screencapture-127-0-0-1-5500-index-html-2025-07-16-23_13_51" src="https://github.com/user-attachments/assets/c043b758-055a-45d2-8e89-50f3935c7f42" />
+
 
 ---
 
-## 🛠️ Quick Start
-
-1. **Clone or Download**
-   ```bash
-   git clone https://github.com/your-github-username/animated-color-screen.git
-   cd animated-color-screen
