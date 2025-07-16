@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Color Screen</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="animated-bg" id="animatedBg"></div>
+        
+        <div class="floating-shapes">
+            <div class="shape circle"></div>
+            <div class="shape square"></div>
+            <div class="shape triangle"></div>
+            <div class="shape circle" style="left: 20%; animation-delay: -2s;"></div>
+            <div class="shape square" style="left: 40%; animation-delay: -7s;"></div>
+            <div class="shape triangle" style="left: 60%; animation-delay: -12s;"></div>
+            <div class="shape circle" style="left: 80%; animation-delay: -15s;"></div>
+        </div>
+
+        <div class="particles" id="particles"></div>
+
+        <div class="content">
+            <h1 class="title">Animated Color Screen</h1>
+            <p class="subtitle">Choose your favorite color and watch the magic happen!</p>
+            
+            <div class="color-picker">
+                <div class="color-options">
+                    <div class="color-btn active" data-color="1" style="background: linear-gradient(45deg, #667eea, #764ba2);"></div>
+                    <div class="color-btn" data-color="2" style="background: linear-gradient(45deg, #f093fb, #f5576c);"></div>
+                    <div class="color-btn" data-color="3" style="background: linear-gradient(45deg, #4facfe, #00f2fe);"></div>
+                    <div class="color-btn" data-color="4" style="background: linear-gradient(45deg, #43e97b, #38f9d7);"></div>
+                    <div class="color-btn" data-color="5" style="background: linear-gradient(45deg, #fa709a, #fee140);"></div>
+                    <div class="color-btn" data-color="6" style="background: linear-gradient(45deg, #a8edea, #fed6e3);"></div>
+                </div>
+                
+                <div class="custom-color">
+                    <input type="color" id="customColor" value="#667eea">
+                    <button id="applyCustom">Apply Custom</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
